@@ -7,22 +7,34 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
         <style>
-        body, html {
-        height: 100%;
-        font-family: "supermarket", sans-serif;
-        }
-    
-        .bgimg {
-        background-position: center;
-        background-size: cover;
-        background-image: url("Img/102.jpg");
-        min-height: 100%;
-        }
-    
-        .menu {
-        display: none;
-        }
+            body, html {
+                height: 100%;
+                font-family: "supermarket", sans-serif;
+            }
+            .menu {
+                display: none;
+            }
+            div.polaroid {
+                width: 60%;
+                background-color: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin-bottom: 25px;
+            }
+            div.container {
+                text-align: center;
+                padding: 10px 20px;
+            }
+            div.setting {
+                margin-top: 80px;
+            }
+            div.setborderR {
+                margin-right: 50px;
+            }
+            div.setborderL {
+                margin-left: 50px;
+            }
         </style>
+        
 </head>
 <body>
 <!-- Links (sit on top) -->
@@ -42,17 +54,22 @@
             </div>
         </div>
     </div>
-
-<!-- Header with image -->
-
-<!-- <header class="bgimg w3-display-container w3-grayscale-min" id="home"> -->
-    <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <div class="w3-row setting">
+        <div class="polaroid w3-col s5 setborderL">
+            <img src="107.jpg" alt="ซุปเปอร์เบอร์เกอร์ไก่ทอด"; style="width:100%;  height: 450px;">
+            <div class="container">
+            <p style="font: 20px;">ฉันรักสิ่งนี้</p>
+            </div>
+        </div>
+        <div class="polaroid w3-col s1"></div>
+        <div class="polaroid w3-col s5 setborderR">
+            <img src="106.jpg" alt="Norther Lights" style="width:100%; height: 450px;">
+            <div class="container">
+                <h4 style="font-family:Supermarket; font-size:25px;">นายอนุพล วิทยศักดิ์พันธุ์</h4>
+                <h5 style="font-family:Supermarket; font-size:20px;">ชื่อเล่น เบส อายุ 24 ปี</h5>
+                <h6 style="font-family:Supermarket; font-size:16px;">งานอดิเรก : อ่านข่าวเทคโนโลยี ฟัง Podcast เล่นเกม</h6>
+            </div>
+        </div>
     </div>
-    <div class="w3-display-bottomright w3-center w3-padding-large">
-        <span class style="w3-text-white ; font-size:25px; text-align:left;">ฉันเรียกมันว่าความรัก</span>
-        <pre style="font-family:Supermarket; font-size:25px;">นายอนุพล วิทยศักดิ์พันธุ์
-ชื่อเล่น เบส อายุ 24 ปี
-    งานอดิเรก : อ่านข่าวเทคโนโลยี ฟัง Podcast เล่นเกม </pre>
-    
 </body>
 </html>
