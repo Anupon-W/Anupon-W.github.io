@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flex-container {
+        display: flex;
+        }
+
+        .flex-container > div {
+        margin: 5px;
+        padding: 2px;
+        font-size: 15px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Three Lady Cook Air Line</h1>
+    <h2>Book flight</h2>
+    <div class="flex-container">
+        <div>
+            <label for="flying">Flying from</label>
+            <br>
+            <select id="flying">
+              <option value="กรุงเทพ ไทย">กรุงเทพ ไทย</option>
+              <option value="เชียงใหม่ ไทย">เชียงใหม่ ไทย</option>
+              <option value="หาดใหญ่ ไทย">หาดใหญ่ ไทย</option>
+              <option value="ภูเก็ต ไทย">ภูเก็ต ไทย</option>
+              <option value="เชียงราย ไทย">เชียงราย ไทย</option>
+              <option value="ไทเป ไต้หวัน">ไทเป ไต้หวัน</option>
+              <option value="ฮ่องกง ฮ่องกง">ฮ่องกง ฮ่องกง</option>
+              <option value="โซล เกาหลีใต้">โซล เกาหลีใต้</option>
+              <option value="ภูสิงคโปร์ สิงคโปร์">ภูสิงคโปร์ สิงคโปร์</option>
+            </select>
+        </div>
+        <div>
+            <label for="flying">To</label>
+            <br>
+            <select id="Too">
+                <option value="กรุงเทพ ไทย">กรุงเทพ ไทย</option>
+                <option value="เชียงใหม่ ไทย">เชียงใหม่ ไทย</option>
+                <option value="หาดใหญ่ ไทย">หาดใหญ่ ไทย</option>
+                <option value="ภูเก็ต ไทย">ภูเก็ต ไทย</option>
+                <option value="เชียงราย ไทย">เชียงราย ไทย</option>
+                <option value="ไทเป ไต้หวัน">ไทเป ไต้หวัน</option>
+                <option value="ฮ่องกง ฮ่องกง">ฮ่องกง ฮ่องกง</option>
+                <option value="โซล เกาหลีใต้">โซล เกาหลีใต้</option>
+                <option value="ภูสิงคโปร์ สิงคโปร์">ภูสิงคโปร์ สิงคโปร์</option>
+            </select>
+        </div> 
+    </div>
+    <div class="flex-container">
+        <div>
+            <section id="date">  
+                <div><label>Departing</label>          
+                <div><input type="date" name="bday"></div>
+            </section>
+        </div>
+        <div>
+            <section>
+                <div><label for="Departing">Returning</label>
+                <div><input type="date" name="bday"></div>
+            </section>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div>
+            <section>  
+                <div><label>Adult</label>          
+                <div><input type="number" name="Adult" style="width: 60px;"></div>
+            </section>
+        </div>
+        <div>
+            <section>
+                <div><label for="Departing">Child</label>
+                <div><input type="number" name="Child" style="width: 60px;"></div>
+            </section>
+        </div><div>
+            <section>
+                <div><label for="Departing">Infant</label>
+                <div><input type="number" name="Infant" style="width: 60px;"></div>
+            </section>
+        </div><div>
+            <section>
+                <div><label for="Departing">Currency</label>
+                    <label for="flying">To</label>
+                    <br>
+                    <select id="Too">
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="TRY">TRY</option>
+                        <option value="NOK">NOK</option>
+                        <option value="JEP">JEP</option>
+                        <option value="BRL">BRL</option>
+                        <option value="PKR">PKR</option>
+                        <option value="CNY">CNY</option>
+                        <option value="LAK">LAK</option>
+                        <option value="TWD">TWD</option>
+                        <option value="THB">THB</option>
+                        <option value="SGD">SGD</option>
+                    </select>
+            </section>
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="Search">
+    </div>
+
+
+
+</body>
+</html>
